@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="p-4 bg-info text-dark">
+		<h1>scrollspy</h1>
+		<ol>
+		<li>crollspy toggles the .active class on anchor (<a>) elements when the element with the id referenced by the anchor’s href is scrolled into view. Scrollspy is best used in conjunction with a Bootstrap nav component or list group, but it will also work with any anchor elements in the current page. Here’s how it works.
+On the scrollable container, add data-bs-spy="scroll" and data-bs-target="#navId" where navId is the unique id of the associated navigation. If there is no focusable element inside the element, be sure to also include a tabindex="0" to ensure keyboard access.
+	</ol>
+	<ol>
+		<li>2 To start, scrollspy requires two things: a navigation, list group, or a simple set of links, plus a scrollable container. The scrollable container can be the  or a custom element with a set height and overflow-y: scroll.
+</li>
+	</ol>
+	<ol>
+		<li>3 As you scroll the “spied” container, an .active class is added and removed from anchor links within the associated navigation. Links must have resolvable id targets, otherwise they’re ignored. For example, a <a href="#home">home</a> must correspond to something in the DOM like <div id="home"></div>
+</li></li>
+	</ol>
+	</div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="p-4 bg-danger text-dark"> 
+	<h1>button</h1>
+	<p>Tooltips
+Documentation and examples for adding custom Bootstrap tooltips with CSS and JavaScript using CSS3 for animations and data-attributes for local title storage.
+
+ads via CarbonGet 10 Free Images From Adobe Stock. Start Now.
+ads via Carbon
+Overview
+Things to know when using the tooltip plugin:
+
+Tooltips rely on the 3rd party library Popper.js for positioning. You must include popper.min.js before bootstrap.js or use bootstrap.bundle.min.js / bootstrap.bundle.js which contains Popper.js in order for tooltips to work!
+If you’re building our JavaScript from source, it requires util.js.
+Tooltips are opt-in for performance reasons, so you must initialize them yourself.
+Tooltips with zero-length titles are never displayed.
+Specify container: 'body' to avoid rendering problems in more complex components (like our input groups, button groups, etc).
+Triggering tooltips on hidden elements will not work.
+Tooltips for .disabled or disabled elements must be triggered on a wrapper element.
+When triggered from hyperlinks that span multiple lines, tooltips will be centered. Use white-space: nowrap; on your <a>s to avoid this behavior.
+Tooltips must be hidden before their corresponding elements have been removed from the DOM.
+Got all that? Great, let’s see how they work with some examples.
+
+Example: Enable tooltips everywhere
+One way to initialize all tooltips on a page would be to select them by their data-toggle attribute:
+
+Copy
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+Examples
+Hover over the links below to see tooltips:
+
+Tight pants next level keffiyeh you probably haven't heard of them. Photo booth beard raw denim letterpress vegan messenger bag stumptown. Farm-to-table seitan, mcsweeney's fixie sustainable quinoa 8-bit american apparel have a terry richardson vinyl chambray. Beard stumptown, cardigans banh mi lomo thundercats. Tofu biodiesel williamsburg marfa, four loko mcsweeney's cleanse vegan chambray. A really ironic artisan whatever keytar, scenester farm-to-table banksy Austin twitter handle freegan cred raw denim single-origin coffee viral.
+
+Hover over the buttons below to see the four tooltips directions: top, right, bottom, and left.
+
+    
+</p>
+	</div>
+</body>
+</html>
